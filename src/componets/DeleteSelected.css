@@ -1,0 +1,9 @@
+.DeleteSelected {
+  background-color: rgb(255, 114, 114) !important;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

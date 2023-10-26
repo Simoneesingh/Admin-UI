@@ -1,0 +1,23 @@
+.pag {
+    display: flex;
+}
+
+.pag button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color:  rgb(155, 155, 218);
+    color: white;
+    margin-left: 0.8rem;
+
+}
+
+ .pag .active {
+    background-color: white;
+    border: rgb(155, 155, 218) 0.5px solid;
+    color: rgb(155, 155, 218);
+}
+
+.pag .disabled {
+    background-color: rgb(179, 178, 178);
+}

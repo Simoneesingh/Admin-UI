@@ -1,0 +1,66 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  button {
+    border: 10px;
+  }
+
+  .isSelected {
+    background-color: rgb(194, 190, 190);
+  }
+
+ td .action-btn {
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .delete {
+    color: red;
+  }
+
+  .edit{
+    color: blueviolet;
+  }
+  
+  .save{
+    color: green;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .btn-container {
+    display: flex;
+  }
+
+  @media ( max-width: 767px
+  ) {
+    table {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: small;
+    }
+    td, th {
+      padding: 4px;
+    }
+    .footer {
+      flex-direction: column;
+    }
+  }
